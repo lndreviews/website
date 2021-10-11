@@ -101,23 +101,16 @@ See all [meetings](/meetings/).
 
 ## Other Resources for New Contributors
 
+- Read the [Contributing to LND
+  Guide](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md). This
+  will help you understand the process and some of the terminology we use in
+  LND.
 - Read the [Contributing to Bitcoin Core
   Guide](https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md). This
   will help you understand the process and some of the terminology we use in
   Bitcoin Core.
 - Look at the [Good First
-  Issues](https://github.com/bitcoin/bitcoin/issues?q=is%3aissue+is%3aopen+label%3a%22good+first+issue%22)
+  Issues](https://github.com/lightningnetwork/lnd/labels/good%20first%20issue)
   and [Up For
-  Grabs](https://github.com/bitcoin/bitcoin/issues?utf8=%e2%9c%93&q=label%3a%22up+for+grabs%22)
+  Grabs](https://github.com/lightningnetwork/lnd/labels/up%20for%20grabs)
   list.
-- Read the Bitcoin Core [Developer
-  Notes](https://github.com/bitcoin/bitcoin/blob/master/doc/developer-notes.md)
-  and [Productivity
-  Tips](https://github.com/bitcoin/bitcoin/blob/master/doc/productivity.md).
-- Brush up on your C++. There are [many primers and reference manuals
-  available](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list).
-- There are some excellent blog posts on how to start contributing to Bitcoin Core:
-    - [A Gentle Introduction to Bitcoin Core Development (Jimmy Song)](https://bitcointechtalk.com/a-gentle-introduction-to-bitcoin-core-development-fdc95eaee6b8)
-    - [Contributing to Bitcoin Core - a Personal Account (John Newbery)](https://bitcointechtalk.com/contributing-to-bitcoin-core-a-personal-account-35f3a594340b)
-    - [Onboarding to Bitcoin Core (Amiti Uttarwar)](https://medium.com/@amitiu/onboarding-to-bitcoin-core-7c1a83b20365)
-    - [How to Review Pull Requests in Bitcoin Core (Jon Atack)](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core)
