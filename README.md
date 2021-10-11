@@ -1,4 +1,4 @@
-# lnd-review-club
+# LND Review Club
 
 This was a fork from https://github.com/bitcoin-core-review-club/website.
 Thanks to all the work!
