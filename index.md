@@ -2,43 +2,40 @@
 layout: default
 title: home
 ---
-### A weekly review club for Bitcoin Core PRs
+### A weekly review club for LND PRs
 
 <span class="question">What is this?</span> &nbsp;A weekly club for reviewing
-Bitcoin Core PRs at **{{ site.meeting_time }} on {{ site.meeting_day }}s** on IRC.
+LND PRs at **{{ site.meeting_time }} on {{ site.meeting_day }}s** on IRC.
 
 <span class="question">What's it for?</span> &nbsp;To help newer contributors
-learn about the Bitcoin Core review process. The review club is *not* primarily
+learn about the LND review process. The review club is *not* primarily
 intended to help open PRs get merged (although that might be a nice
 side-effect).
 
 <span class="question">Who should take part?</span> &nbsp;Anyone who wants to
-learn about contributing to Bitcoin Core. All are welcome to come and ask
+learn about contributing to LND . All are welcome to come and ask
 questions!
 
 <span class="question">What's the benefit for participants?</span>
-&nbsp;Reviewing and testing PRs is the best way to start contributing to Bitcoin
-Core, but it's difficult to know where to start. There are hundreds of open PRs,
+&nbsp;Reviewing and testing PRs is the best way to start contributing to LND,
+but it's difficult to know where to start. There are hundreds of open PRs,
 many require a lot of contextual knowledge, and contributors and reviewers often
 use unfamiliar terminology. The review club will give you the tools and
-knowledge you need in order to take part in the [Bitcoin Core review
-process](https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md#peer-review)
+knowledge you need in order to take part in the [LND review
+process](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review)
 on GitHub.
 
 <span class="question">How do I take part?</span> Just show up on IRC! See
 [Attending your first PR Review Club](/your-first-meeting/) for more tips
 on how to participate.
 
-<span class="question">Who runs this?</span> &nbsp;Bitcoin Core contributor
-[jnewbery](https://github.com/jnewbery) started the review club and schedules
-the upcoming meetings. Individual meetings are hosted by a variety of Bitcoin
-Core contributors. See some of our [previous hosts](/meetings-hosts/).
+<span class="question">Who runs this?</span> &nbsp;LND contributor
+[naveensrinivasan](https://github.com/naveensrinivasan) started the review club and schedules
+the upcoming meetings. Individual meetings are hosted by a variety of LND
+contributors. See some of our [previous hosts](/meetings-hosts/).
 
 ## Upcoming Meetings
 
-<!--
-🎄 The review club is taking a break for the rest of 2020. We wish everyone a very happy holidays and we'll see you all back at review club on **January 6th**! 🎄
--->
 
 <table>
 {% for post in site.posts reversed %}

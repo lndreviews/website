@@ -3,7 +3,7 @@
 This was a fork from https://github.com/bitcoin-core-review-club/website.
 Thanks to all the work!
 
-Simple Jekyll site for hosting the lnd PR Review club at https://lnd.reviews/.
+Simple Jekyll site for hosting the LND PR Review club at https://lnd.reviews/.
 
 ## Development
 
