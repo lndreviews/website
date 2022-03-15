@@ -5,7 +5,7 @@ title: home
 ### A weekly review club for LND PRs
 
 <span class="question">What is this?</span> &nbsp;A weekly club for reviewing
-LND PRs at **{{ site.meeting_time }} on {{ site.meeting_day }}s** on IRC.
+LND PRs at **{{ site.meeting_time }} on {{ site.meeting_day }}s** on Jitsi.
 
 <span class="question">What's it for?</span> &nbsp;To help newer contributors
 learn about the LND review process. The review club is *not* primarily
@@ -13,7 +13,7 @@ intended to help open PRs get merged (although that might be a nice
 side-effect).
 
 <span class="question">Who should take part?</span> &nbsp;Anyone who wants to
-learn about contributing to LND . All are welcome to come and ask
+learn about contributing to LND. All are welcome to come and ask
 questions!
 
 <span class="question">What's the benefit for participants?</span>
@@ -25,12 +25,12 @@ knowledge you need in order to take part in the [LND review
 process](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review)
 on GitHub.
 
-<span class="question">How do I take part?</span> Just show up on IRC! See
+<span class="question">How do I take part?</span> Just show up on Jitsi! See
 [Attending your first PR Review Club](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review) 
 for more tips on how to participate.
 
-<span class="question">Who runs this?</span> &nbsp;LND contributor
-[naveensrinivasan](https://github.com/naveensrinivasan) started the review club and schedules
+<span class="question">Who runs this?</span> &nbsp;Lightning Labs evangelist
+[lucasdcf](https://github.com/lucasdcf) started the review club and schedules
 the upcoming meetings. Individual meetings are hosted by a variety of LND
 contributors. See some of our [previous hosts](/meetings-hosts/).
 
@@ -63,11 +63,10 @@ contributors. See some of our [previous hosts](/meetings-hosts/).
 We're always looking for interesting PRs to discuss in the review club and for
 volunteer hosts to lead the discussion:
 
-- To suggest a PR, please leave a comment on [this GitHub
-  issue](https://github.com/bitcoin-core-review-club/bitcoin-core-review-club.github.io/issues/14).
+- To suggest a PR, please DM @lucasdcf on [Slack](https://lightning.engineering/slack.html) or Twitter.
 - If you'd like to host a meeting, look at the [information for meeting
   hosts](https://github.com/bitcoin-core-review-club/bitcoin-core-review-club.github.io/blob/master/CONTRIBUTING.md)
-  and contact jnewbery on IRC.
+  and contact @lucasdcf on on [Slack](https://lightning.engineering/slack.html) or Twitter..
 
 ## Recent Meetings
 
@@ -105,10 +104,6 @@ See all [meetings](/meetings/).
   Guide](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md). This
   will help you understand the process and some of the terminology we use in
   LND.
-- Read the [Contributing to Bitcoin Core
-  Guide](https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md). This
-  will help you understand the process and some of the terminology we use in
-  Bitcoin Core.
 - Look at the [Good First
   Issues](https://github.com/lightningnetwork/lnd/labels/good%20first%20issue)
   and [Up For
