@@ -5,7 +5,7 @@ title: home
 ### A weekly review club for LND PRs
 
 <span class="question">What is this?</span> &nbsp;A weekly club for reviewing
-LND PRs at **{{ site.meeting_time }} on {{ site.meeting_day }}s** in the #lnd-pr-reviews IRC channel on [libera.chat](https://kiwiirc.com/nextclient/irc.libera.chat/).
+LND PRs **every two weeks on Thursdays at 17:00 UTC** in the #lnd-pr-reviews IRC channel on [libera.chat](https://kiwiirc.com/nextclient/irc.libera.chat/).
 
 <span class="question">What's it for?</span> &nbsp;To help newer contributors
 learn about the LND review process. The review club is *not* primarily
