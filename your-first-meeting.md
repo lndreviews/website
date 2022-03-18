@@ -34,11 +34,11 @@ IRC](https://fedoramagazine.org/beginners-guide-irc/).
 You’ll get the most out of Review Club if you’ve reviewed the PR going into the
 meeting, but it’s definitely not mandatory in order to attend. You can always
 show up as an observer. If you're worried (don't be!), read the meeting log of a
-[past PR Review Club](https://bitcoincore.reviews/meetings/). You'll see it's
+[past PR Review Club](https://lnd.reviews/meetings/). You'll see it's
 very casual.
 
-If you’d like to more actively participate, you should clone the [Bitcoin
-repository](https://github.com/bitcoin/bitcoin). You should also check out and
+If you’d like to more actively participate, you should clone the [LND
+repository](https://github.com/lightningnetwork/lnd). You should also check out and
 build the PR branch locally and run all tests. Take time to review the code changes and
 read the comments on that week’s PR.
 
@@ -56,7 +56,7 @@ let you know. The host will end the session with **#endmeeting**
 at the end of the hour. Thanking the host at the end of the meeting is always
 appreciated!
 
-Follow the [PR Review Club on Twitter](https://twitter.com/BitcoinCorePRs) for
+Follow the [PR Review Club on Twitter](https://twitter.com/) (coming soon) for
 announcements on that week’s PR or schedule changes.
 
 **We look forward to having you at the next PR Review Club!**

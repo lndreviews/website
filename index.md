@@ -65,7 +65,7 @@ volunteer hosts to lead the discussion:
 
 - To suggest a PR, please DM @lucasdcf on [Slack](https://lightning.engineering/slack.html), IRC, or Twitter.
 - If you'd like to host a meeting, look at the [information for meeting
-  hosts](https://github.com/bitcoin-core-review-club/bitcoin-core-review-club.github.io/blob/master/CONTRIBUTING.md)
+  hosts](https://github.com/lndreviews/website/blob/master/CONTRIBUTING.md)
   and contact lucasdcf on on [Slack](https://lightning.engineering/slack.html), IRC, or Twitter.
 
 ## Recent Meetings
