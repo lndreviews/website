@@ -26,7 +26,7 @@ process](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribut
 on GitHub.
 
 <span class="question">How do I take part?</span> Just show up on IRC! See
-[Attending your first PR Review Club](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review) 
+[Attending your first PR Review Club](/your-first-meeting/)
 for more tips on how to participate.
 
 <span class="question">Who runs this?</span> &nbsp;Lightning Labs evangelist

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Attending your first PR Review Club
+permalink: /your-first-meeting/
 ---
 
 ## Attending your first PR Review Club
