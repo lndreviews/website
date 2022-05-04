@@ -5,7 +5,7 @@ title: home
 ### A weekly review club for LND PRs
 
 <span class="question">What is this?</span> &nbsp;A weekly club for reviewing
-LND PRs **every two weeks on Thursdays at 17:00 UTC** in the #lnd-pr-reviews IRC channel on [libera.chat](https://kiwiirc.com/nextclient/irc.libera.chat/).
+LND PRs **every two weeks on Thursdays at 17:00 UTC** in the #pr-reviews channel on [LND Developer Community Slack](https://lightning.engineering/slack.html).
 
 <span class="question">What's it for?</span> &nbsp;To help newer contributors
 learn about the LND review process. The review club is *not* primarily
@@ -25,7 +25,7 @@ knowledge you need in order to take part in the [LND review
 process](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review)
 on GitHub.
 
-<span class="question">How do I take part?</span> Just show up on IRC! See
+<span class="question">How do I take part?</span> Just show up on [Slack](https://lightning.engineering/slack.html)! See
 [Attending your first PR Review Club](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review) 
 for more tips on how to participate.
 
@@ -63,10 +63,10 @@ contributors. See some of our [previous hosts](/meetings-hosts/).
 We're always looking for interesting PRs to discuss in the review club and for
 volunteer hosts to lead the discussion:
 
-- To suggest a PR, please DM @lucasdcf on [Slack](https://lightning.engineering/slack.html), IRC, or Twitter.
+- To suggest a PR, please DM @lucasdcf on [Slack](https://lightning.engineering/slack.html), or Twitter.
 - If you'd like to host a meeting, look at the [information for meeting
   hosts](https://github.com/bitcoin-core-review-club/bitcoin-core-review-club.github.io/blob/master/CONTRIBUTING.md)
-  and contact lucasdcf on on [Slack](https://lightning.engineering/slack.html), IRC, or Twitter.
+  and contact lucasdcf on on [Slack](https://lightning.engineering/slack.html), or Twitter.
 
 ## Recent Meetings
 
