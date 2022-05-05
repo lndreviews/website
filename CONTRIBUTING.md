@@ -1,4 +1,4 @@
-# Hosting a Bitcoin Core Review Club Meeting
+# Hosting an LND Review Club Meeting
 
 Some tips for hosting a great review club meeting:
 
@@ -31,8 +31,8 @@ Some tips for hosting a great review club meeting:
 - When linking to code, use stable links that won't break later:
 
   - for links to code in the master branch, link to a recent commit hash in
-    the master branch of bitcoin/bitcoin, e.g.
-    [https://github.com/bitcoin/bitcoin/blob/23d3ae7a/src/addrman.cpp#L44](https://github.com/bitcoin/bitcoin/blob/23d3ae7a/src/addrman.cpp#L44).
+    the master branch of lightningnetwork/lnd, e.g.
+    [https://github.com/lightningnetwork/lnd/blob/bfa1cf17/lnd/lnwallet/parameters.go#L76](https://github.com/lightningnetwork/lnd/blob/bfa1cf17/lnd/lnwallet/parameters.go#L76).
     You can use a short (8 character) commit id.
 
     **REASON**: linking directly to master
@@ -40,9 +40,9 @@ Some tips for hosting a great review club meeting:
 
   - for links to code in the PR branch, ask one of the
     review club maintainers to add a tag of the current PR branch
-    to [bitcoin-core-review-club/bitcoin](https://github.com/bitcoin-core-review-club/bitcoin),
+    to [lndreviews/lnd](https://github.com/lndreviews/lnd),
     and link to that branch or a commit on that branch, e.g.
-    [https://github.com/bitcoin-core-review-club/bitcoin/commit/a6ca5080#diff-be2905e2f5218ecdbe4e55637dac75f3R1751-R1754](https://github.com/bitcoin-core-review-club/bitcoin/commit/a6ca5080#diff-be2905e2f5218ecdbe4e55637dac75f3R1751-R1754).
+    [https://github.com/lndreviews/lnd/commit/a6ca5080#diff-be2905e2f5218ecdbe4e55637dac75f3R1751-R1754](https://github.com/lndreviews/lnd/commit/a6ca5080#diff-be2905e2f5218ecdbe4e55637dac75f3R1751-R1754).
     You can use a short (8 character) commit id.
 
     **REASON**: if the PR author modifies
@@ -114,7 +114,7 @@ rake posts:new -- --help
   in Bitcoin?") don't get a good response because all the attendees are waiting for
   someone else to answer. Instead try to make the questions focused on the
   PR or change set that is being reviewed (e.g. "how does commit X change the
-  way bitcoind gossips transactions?"). Try to phrase questions positively
+  way lnd gossips channel updates?"). Try to phrase questions positively
   ("please describe how X works") rather than negatively ("Does anyone not know
   how X works?").
 
@@ -155,28 +155,28 @@ _This process is done by the review club maintainers_
   ```
 
 - Add the first 7 characters of the PR commit hash at HEAD to the meeting post.
-  This adds a link to the tagged branch on the review club bitcoin core repo.
+  This adds a link to the tagged branch on the review club LND core repo.
   ```diff
   -commit:
   +commit: eebaca7
   ```
 
 - Push a tag of the branch at the time of the meeting to the [PR Review Club
-  Bitcoin repo](https://github.com/bitcoin-core-review-club/bitcoin). This is so
+  LND repo](https://github.com/lndreviews/lnd). This is so
   if the PR branch changes after the review club meeting, people reading the
   notes and log later can see the branch as it was at the time of the meeting:
 
-  - Run these steps from the root of your local bitcoin repo.
+  - Run these steps from the root of your local LND repo.
 
     ```shell
-    cd bitcoin
+    cd lnd
     ```
 
-  - The first time you do this, you'll need to add the review club bitcoin
+  - The first time you do this, you'll need to add the review club lnd
     repo to your git remotes: 
 
     ```shell
-    git remote add review-club git@github.com:bitcoin-core-review-club/bitcoin.git
+    git remote add review-club git@github.com:lndreviews/lnd.git
     ```
 
   - Push a tag to the review-club remote
