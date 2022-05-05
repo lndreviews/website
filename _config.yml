@@ -39,6 +39,3 @@ defaults:
       image: /assets/img/twitter_card.png
 
 permalink: :title
-
-# Render events with a future date
-future: true
