@@ -26,7 +26,7 @@ process](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribut
 on GitHub.
 
 <span class="question">How do I take part?</span> Just show up on [Slack](https://lightning.engineering/slack.html)! See
-[Attending your first PR Review Club](https://github.com/lightningnetwork/lnd/blob/master/docs/code_contribution_guidelines.md#code-review) 
+[Attending your first PR Review Club](/your-first-meeting) 
 for more tips on how to participate.
 
 <span class="question">Who runs this?</span> &nbsp;Lightning Labs evangelist
@@ -63,10 +63,8 @@ contributors. See some of our [previous hosts](/meetings-hosts/).
 We're always looking for interesting PRs to discuss in the review club and for
 volunteer hosts to lead the discussion:
 
-- To suggest a PR, please DM @lucasdcf on [Slack](https://lightning.engineering/slack.html), or Twitter.
-- If you'd like to host a meeting, look at the [information for meeting
-  hosts](https://github.com/bitcoin-core-review-club/bitcoin-core-review-club.github.io/blob/master/CONTRIBUTING.md)
-  and contact lucasdcf on on [Slack](https://lightning.engineering/slack.html), or Twitter.
+- To suggest a PR, please DM @lucasdcf on [Slack](https://lightning.engineering/slack.html) or Twitter.
+- If you'd like to host a meeting, contact lucasdcf on on [Slack](https://lightning.engineering/slack.html) or Twitter.
 
 ## Recent Meetings
 
