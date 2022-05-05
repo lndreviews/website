@@ -14,7 +14,8 @@ description:       "A weekly review club for LND PRs"
 author:            "LND PR Review Club contributors"
 meeting_time:      "TBD"
 meeting_day:       "TBD"
-meeting_location:  "#TBD IRC channel on <a href=\"https://kiwiirc.com/nextclient/irc.libera.chat/\">libera.chat</a>"
+meeting_location:  '#pr-reviews channel on <a href="https://lightning.engineering/slack.html">LND Developer Community Slack</a>'
+future: true
 url: https://lnd.reviews
 twitter_username: 
 twitter:
