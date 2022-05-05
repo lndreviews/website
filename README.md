@@ -22,6 +22,34 @@ bundler, and dependencies: `gem update --system && gem update && bundle update`
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) doc for how to create a post for an upcoming meeting.
 
+Quick reference using docker container:
+```bash
+PR_NUM=<pr_number>
+PR_HOST=<github_username>
+PR_DATE=<yyyy-mm-dd_review_session_date>
+
+docker build -t lndreviews:dev .
+docker run -it --name lndreviews -v $(pwd):/lndreviews lndreviews:dev \
+  rake posts:new -- -p $PR_NUM -h $PR_HOST -d $PR_DATE
+
+docker run -it --rm --name lndreviews \
+  -v $(pwd):/lndreviews \
+  -e PR_NUM -e REVIEW_HOST -e REVIEW_DATE_yyyy-mm-dd \
+  lndreviews:dev /bin/sh -c "\
+    cd /lndreviews ;\
+    rake posts:new -- -p $PR_NUM -h $REVIEW_HOST -d $REVIEW_DATE "
+
+export PR_NUM=5700 REVIEW_HOST=guggero REVIEW_DATE=2022-05-12
+docker run -it --rm --name lndreviews \
+  -v $(pwd):/lndreviews \
+  --env PR_NUM --env REVIEW_HOST --env REVIEW_DATE \
+  lndreviews:dev sh -c "\
+  cd /lndreviews ;
+  rake posts:new -- -p $PR_NUM -h $REVIEW_HOST -d $REVIEW_DATE \
+  "
+
+```
+
 ## Changing Site Data
 
 All site configurations are either contained in `_config.yml` or `_data/settings.yml`. Some data is duplicated between the two due to the way Jekyll injects variables, so be sure to update both.
