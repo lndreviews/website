@@ -9,7 +9,9 @@ permalink: /your-first-meeting/
 If you’re thinking about attending PR Review Club, welcome! We love new
 participants. Below is information to help you get started as a first-timer.
 
-The club meets **every two weeks on Thursdays at 17:00 UTC** in the #pr-reviews channel on [LND Developer Community Slack](https://lightning.engineering/slack.html). Every week, an LND
+The club meets **every two weeks on Thursdays at 17:00 UTC** in the
+#review-club channel on [LND Developer Community
+Slack](https://lightning.engineering/slack.html). Every week, an LND
 developer will host a 60-minute discussion on an LND pull request. [The
 code of conduct](https://lnd.reviews/code-of-conduct) details the
 behavior we expect from all participants.
