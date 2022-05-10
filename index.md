@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: LND PR Review Club
 ---
 ### A weekly review club for LND PRs
 
