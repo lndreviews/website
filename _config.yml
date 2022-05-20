@@ -10,7 +10,7 @@ sass:
 
 # Site settings
 title:             "LND PR Review Club"
-description:       "A weekly review club for LND PRs"
+description:       "A bi-weekly review club for LND PRs"
 author:            "LND PR Review Club contributors"
 meeting_time:      "TBD"
 meeting_day:       "TBD"

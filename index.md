@@ -2,9 +2,9 @@
 layout: default
 title: LND PR Review Club
 ---
-### A weekly review club for LND PRs
+### A bi-weekly review club for LND PRs
 
-<span class="question">What is this?</span> &nbsp;A weekly club for reviewing
+<span class="question">What is this?</span> &nbsp;A club for reviewing
 LND PRs **every two weeks on Thursdays at 17:00 UTC** in the
 #review-club channel on
 [LND Developer Community Slack](https://lightning.engineering/slack.html).
