@@ -1,7 +1,7 @@
 ---
 layout: pr
 date: 2022-07-28
-title: "multi: Route blindings"
+title: "multi: Route blinding"
 authors: [ellemouton]
 host: guggero
 status: upcoming
