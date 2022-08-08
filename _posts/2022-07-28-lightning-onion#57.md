@@ -4,7 +4,7 @@ date: 2022-07-28
 title: "multi: Route blinding"
 authors: [ellemouton]
 host: guggero
-status: upcoming
+status: past
 commit:
 ---
 
