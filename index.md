@@ -5,7 +5,7 @@ title: LND PR Review Club
 ### A bi-weekly review club for LND PRs
 
 <span class="question">What is this?</span> &nbsp;A club for reviewing
-LND PRs **every two weeks on Thursdays at 17:00 UTC** in the
+LND PRs **every second Thursday of the month at 17:00 UTC** in the
 #review-club channel on
 [LND Developer Community Slack](https://lightning.engineering/slack.html).
 
